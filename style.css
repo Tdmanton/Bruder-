@@ -1,0 +1,55 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #e0f7fa, #fff);
+  height: 100%;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #006064;
+  text-align: center;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.text {
+  position: relative;
+  z-index: 1;
+  padding-top: 20vh;
+}
+
+h1 {
+  font-size: 32px;
+  color: #00796b;
+}
+
+p {
+  font-size: 20px;
+  margin: 0.5rem;
+}
+
+.language-switcher {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+}
+
+.language-switcher button {
+  background: #00838f;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin-right: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.language-switcher button:hover {
+  background: #005662;
+}
